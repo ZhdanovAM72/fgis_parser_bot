@@ -5,8 +5,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-from time import sleep
-
 
 def get_calibration_info(
         suitability: bool = True,
