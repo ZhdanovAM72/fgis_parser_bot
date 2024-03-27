@@ -17,10 +17,10 @@
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone git@github.com:ZhdanovAM72/cat_charity_fund.git
+git clone https://github.com/ZhdanovAM72/fgis_parser_bot.git
 ```
 ```
-cd yacut
+cd fgis_parser_bot
 ```
 Cоздать и активировать виртуальное окружение:
 ```
@@ -44,11 +44,10 @@ pip install -r requirements.txt
 Заполнить файл с секретами:
 ``` 
 # пример заполненного файла:
-APP_TITLE=QRKots
-APP_TITLE=QRKot
-DESCRIPTION=Благотворительный фонд поддержки котиков
+APP_TITLE=Заголовок
+DESCRIPTION=Описание
 DATABASE_URL=sqlite+aiosqlite:///./fastapi.db
-SECRET=secret
+SECRET=your_secret
 FIRST_SUPERUSER_EMAIL=admin@admin.com
 FIRST_SUPERUSER_PASSWORD=admin
 VERSION=0.1.1
